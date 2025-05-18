@@ -13,5 +13,8 @@ int main(){
     *ptrNumber = 54;
     cout << "The modified value of the pointer is now " <<*ptrNumber << " and the original variable will now also be " << number << "\n";
     // changing the pointer value to 54 has also changed the original variable value to 54
+
+
     return 0;
+
 }
