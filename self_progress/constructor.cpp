@@ -15,13 +15,12 @@ class construct{
     }
 };
 
-
 int main(){
     int x, y ;
     cout << "Enter 1st number: ";   cin >> x;
     cout << "Enter 2nd number: ";   cin >> y;
 
-    construct objectOfClass(x , y); // We named the object, it will automatically call the constructor
+    construct objectOfClass(x , y); //After naming the object, it will automatically call the constructor
 
     // *IMPORTANT*
     // The constructor has the same name as the class, it is always public, and it does not have any return value.
