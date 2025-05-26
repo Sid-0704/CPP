@@ -1,5 +1,12 @@
 #include <iostream>
 using namespace std;
+
+/*
+this approach of reversing an array uses another array and 
+value of 1st element of 2nd array is set to last element of 1st array and use for loop to do this method for every element in the array
+
+*/
+
 // void reverseString();
 
 int main(){
