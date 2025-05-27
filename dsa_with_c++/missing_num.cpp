@@ -2,7 +2,7 @@
 using namespace std;
 /*
     This method of finding missing number involves adding each element of array and then 
-    subtracting it with the A.P. sum formula
+    subtracting it with the sum of 1st n numbers formula
     This method is only applicable if the elements of an array is consecutive
 */
 
@@ -16,7 +16,7 @@ int main(){
         sum +=arr[i];
     }
    
-    // Below code is of an A.P.
+    // Below code is of an sum of n natural numbers
     int ap = arrSize * (arrSize +1)/2;
     int missing_num = ap - sum;
     cout << "The missing number is: " << missing_num << endl;
