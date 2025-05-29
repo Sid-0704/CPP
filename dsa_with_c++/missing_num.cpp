@@ -10,7 +10,7 @@ using namespace std;
 
 int main(){
     // vector<int>arr1;
-    
+
     int arr[]={1,2,3,5};
     int sum = 0;
     int arrSize = sizeof(arr)/sizeof(int) +1;
@@ -22,6 +22,6 @@ int main(){
     // Below code is of an sum of n natural numbers
     int sum_natural = arrSize * (arrSize +1)/2;
     int missing_num = sum_natural - sum;
-    cout << "The missing number is: " << missing_num << endl;
+    cout << "The missing number is: " << missing_num;
     return 0;
 }
