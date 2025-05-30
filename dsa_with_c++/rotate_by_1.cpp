@@ -19,6 +19,7 @@ int main(){
     for(int i=arrsize-2; i>=0; i--){
 
         arr[i+1] = arr[i];
+        
     
     }
     arr[0] = temp;
