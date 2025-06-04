@@ -26,6 +26,7 @@ int main(){
 
     cout << "\nArray after being rotated by 1 is:\n";
     for(int m=0; m<arrsize; m++){
+        
         cout << arr[m] << endl;
     }
 
