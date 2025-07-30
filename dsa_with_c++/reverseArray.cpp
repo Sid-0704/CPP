@@ -14,8 +14,10 @@ int main(){
         i++;
         j--;
     }
+    
 
     for(int m=0; m<6; m++){
+    
         cout << arr[m] << " ";
     }
     return 0;

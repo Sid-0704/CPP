@@ -5,11 +5,12 @@ using namespace std;
 enum difficulty{
     low = 1,
     medium, // medium and high will be automatically assigned value 2 and 3 respectively  
-    high // we don't use semicolon here
+    high, // we don't use semicolon here
+    unbearable
 };
 
 int main(){
-
+    
     enum difficulty gameDifficulty = medium;
     
     switch (gameDifficulty){
@@ -24,6 +25,9 @@ int main(){
     case 3:
         cout << "The game has high difficulty.." << endl;
         break;
+
+    case 4:
+        cout << "The game has unbearable.." << endl;
 
     default:
         cout << "Difficulty not set.." << endl;

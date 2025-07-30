@@ -11,6 +11,7 @@ int main(){
 
     cout << "Enter the array elements: ";
     for(int z=0; z<arrsize; z++){
+        cout << "Enter the numbers: ";
         cin >> arr[z];
     }
 
