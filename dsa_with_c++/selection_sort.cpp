@@ -27,10 +27,11 @@ int main(){
 
     
     cout << "Your sorted array is: ";
-    // printing the numbers 
+
     for(int c=0; c<n; c++){
         cout << arr[c] << " ";
     }
-
+    
+    
     return 0;
 }

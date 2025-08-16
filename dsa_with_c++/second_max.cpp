@@ -6,7 +6,7 @@ int main(){
 
     int ans = INT16_MIN;
     int second = INT16_MIN;
-    int arr_size = sizeof(arr)/sizeof(int);
+    int arr_size = sizeof(arr)/sizeof(arr[0]);
     
     for(int i=0;i<arr_size; i++){
         if(arr[i]>ans){
