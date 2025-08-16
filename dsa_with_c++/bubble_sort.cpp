@@ -3,15 +3,17 @@
 using namespace std;
 
 int main(){
-    int arr[1000] = {5, 6, 2, 1, 3, 4};
-    
-    for(int i=0; i<4; i++){
+    int arr[1000] = {6, 3, 5, 1, 2, 4};
+    int last_element = 5;
 
-        for(int j=0; j<5; j++){
+    for(int i=0; i< 4; i++){
+
+        for(int j=0; j<last_element; j++){
             if(arr[j] > arr[j+1]){
                 swap(arr[j], arr[j+1]);
             }
         }
+        last_element -= 1;
     }
 
 
