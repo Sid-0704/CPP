@@ -15,7 +15,7 @@ int binarysearch(int arr[], int n, int target){
             start = mid+1;
         }
 
-        else{
+        else{ // In this case arr[mid] > target
             end = mid-1;
         }
         
